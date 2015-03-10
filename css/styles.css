@@ -1,0 +1,52 @@
+/* Added Styles */
+
+/* Header */
+header {
+  width: 100%;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.5);
+  color: #000;
+  position: fixed;
+  top: 0;
+}
+
+/* Slide 1 */
+#slide-1 .bg {background-image:url('../img/bg-sc1.jpg')}
+#slide-1 .hsContent {
+  bottom: 200px;
+  top: auto;
+}
+
+/* Slide 2 */
+#slide-2 .bg {background-image:url('../img/bg-sc2.jpg')}
+#slide-2 .hsContent {
+  margin-left: -450px;
+  top: auto;
+}
+#slide-2 h2 {
+  position: fixed;
+  top: 70%;
+}
+
+/* Slide 3 */
+#slide-3 .bg {background-image:url('../img/bg-sc3.jpg')}
+#slide-3 .hsContent {
+  margin-left: -239px;
+}
+  #slide-3 h2 {
+    color: #f2ead6;
+    background-color: rgba(0,0,0,0.6);
+  }
+
+/* Slide 4 */
+#slide-4 .bg {background-image:url('../img/bg-sc1.jpg')}
+#slide-4 .hsContent {
+  margin-left: -450px;
+  position: fixed;
+  top: 250px;
+}
+#slide-4 h2 {
+  background: none;
+  padding-left: 0;
+  padding-right: 0;
+}
