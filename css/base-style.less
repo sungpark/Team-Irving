@@ -189,4 +189,29 @@ header {
   background-clip: text;
 }
 
-@media
+@media (max-width: 767px) {
+  // html {overflow-x: hidden;}
+  section {
+    min-width: 100%;
+  }
+  #slide-1 {
+    .hsContainer {
+      width: 100%;
+
+      .hsContent {
+        width: 70%;
+        background: rgba(0, 0, 0, 0.5);
+        color: @white;
+        padding: 15px 20px;
+        border-radius: 10px;
+        left: 15%;
+        top: 10%;
+        opacity: 1 !important;
+        min-height: 30%;
+        p {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
